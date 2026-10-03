@@ -1,0 +1,52 @@
+{
+  "scenario": "best-buy-fy2022-altered",
+  "findings": [
+    {
+      "id": "1-receivables-factored",
+      "title": "Cash is up 1,006 while net receivables fall by the same amount. The company may have factored its receivables; nothing discloses it.",
+      "source": "Instructor manual, finding 1, as corrected in KEYS.md errata row 1",
+      "lineItems": ["cash_and_equivalents", "receivables_net"]
+    },
+    {
+      "id": "2-inventory-method",
+      "title": "Merchandise inventories more than double, which suggests a change of inventory method. The footnote on the change is missing.",
+      "source": "Instructor manual, finding 2",
+      "lineItems": ["inventories"]
+    },
+    {
+      "id": "3-depreciation",
+      "title": "Gross property and equipment is up 1,553 while accumulated depreciation barely moves. Depreciation is missing, or the method changed without a footnote.",
+      "source": "Instructor manual, finding 3",
+      "lineItems": [
+        "fixtures_and_equipment",
+        "gross_property_and_equipment",
+        "accumulated_depreciation",
+        "net_property_and_equipment"
+      ]
+    },
+    {
+      "id": "4-goodwill",
+      "title": "Goodwill is up about 20%. Impairment cannot be reversed, so this implies an acquisition, and no footnote reports one.",
+      "source": "Instructor manual, finding 4",
+      "lineItems": ["goodwill"]
+    },
+    {
+      "id": "5-accounts-payable",
+      "title": "Accounts payable is almost 30% lower. A change in payment policy is possible and should be confirmed in the footnotes.",
+      "source": "Instructor manual, finding 5",
+      "lineItems": ["accounts_payable"]
+    },
+    {
+      "id": "6-revenue-and-cost-of-sales",
+      "title": "Revenue is up about 6,000 while cost of sales is down more than 7,000. That points to a change away from the weighted average inventory method, with no footnote.",
+      "source": "Instructor manual, finding 6, as corrected in KEYS.md errata row 2",
+      "lineItems": ["revenue", "cost_of_sales", "gross_profit"]
+    },
+    {
+      "id": "7-retained-earnings",
+      "title": "Retained earnings equal the year's net earnings exactly, although the opening balance was 4,233. That implies 4,233 of distributions that nothing discloses.",
+      "source": "KEYS.md errata row 7. Not in the instructor manual.",
+      "lineItems": ["retained_earnings", "total_equity"]
+    }
+  ]
+}

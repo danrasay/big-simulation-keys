@@ -71,7 +71,7 @@ Nine things in the source files do not line up. Each needs a decision before the
 | 4 | Exhibit 4, income statement | Third column is headed February 1, 2020 | It holds the fiscal 2019 figures (revenue 42,879, net earnings 1,464). Fiscal 2020 is absent | Model the column as fiscal 2019 and relabel it |
 | 5 | Exhibit 4, earnings before tax | 18,343 | The components sum to 18,333 | Keep the printed figure, exempt it from the footing test, accept it as a bonus finding |
 | 6 | Exhibit 4, basic EPS | 56.50 | 14,491 over 256.6 shares is 56.47 | Same treatment as row 5 |
-| 7 | Exhibit 4, retained earnings | 14,491 | Identical to the year's net earnings although the opening balance was 4,233, which implies 4,233 of undisclosed distributions | Add as a seventh key finding, if you agree |
+| 7 | Exhibit 4, retained earnings | 14,491 | Identical to the year's net earnings although the opening balance was 4,233, which implies 4,233 of undisclosed distributions | Added as the seventh key finding in `keys/exhibit4-findings.json` |
 | 8 | Exhibit 5 | A one-page PDF | It is an image with no text layer; the 20 formulas in this plan were read from the image | Claude Code must view it as an image, not extract text |
 | 9 | Project description | "add date" and "Friday Nov 12th" | Placeholders from the Gettysburg course | You supply the open, due and presentation dates per section |
 
